@@ -7,10 +7,12 @@
     <title>ECatNomics</title>
 </head>
 <body>
-    <button id="scratchButton" onclick="clickScratch()">Scratch!</button>
+    
+    <img src="sprites/catBowl.png" onclick="clickScratch()" alt="" id="catBowl" draggable="false">
+    <p id="scratchText">Scratch!</p>
     <p id="kibbleAmount">You have 0 kitty kibble.</p>
     <button id="orangeCatUpgrade" onclick="purchaseOrangeCat()">
-        <img src="sprites/orangeSprite.png" id="orangeCat" alt="">
+        <img src="sprites/orangeSprite.png" id="orangeCat" alt="" draggable="false">
         <span id="orangeText">Hire Orange Cat (Cost: 100 kibble)</span>
     </button>
     <p id="orangeAmount"> You've hired 0 orange cats.</p>

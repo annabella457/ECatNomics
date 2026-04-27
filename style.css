@@ -10,14 +10,27 @@ body {
     justify-content: center;
 }
 
-#scratchButton{
-    background-color: #278489be;
-    color: rgb(255, 255, 255);
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
+#scratchText{
+    font-size: 18px;
+    font-family: Luminari, fantasy;
+    color: #d9e9ffbe;
+    line-height: 1.6;
+}
+
+#catBowl {
     cursor: url('sprites/clawCursor.cur'), auto;
-    border-radius: 5px;
+    width: 200px;
+    height: auto;
+    margin: auto;
+}
+
+#catBowl:hover {
+    opacity: 0.8;
+}
+
+#catBowl:active{
+    opacity: 0.6;
+    transform: scale(0.95);
 }
 
 #orangeCat {
@@ -33,6 +46,8 @@ body {
 }
 
 #orangeCatUpgrade {
+    /* position: relative;
+    z-index: 0; */
     margin: auto;
     background-color: rgb(211, 215, 145);
     display: flex;
@@ -40,6 +55,16 @@ body {
     align-items: center;
     height: 150px;
     cursor: url('sprites/clawCursor.cur'), auto;
+    box-shadow: 10px 5px 20px rgb(125, 90, 90);
+}
+
+#orangeCatUpgrade:hover{
+    opacity: 0.8;
+}
+
+#orangeCatUpgrade:active{
+    opacity: 0.6;
+    transform: scale(0.95);
 }
 
 #orangeAmount {
