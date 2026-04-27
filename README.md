@@ -1,6 +1,6 @@
 Welcome to ECatNomics! 
 
-~An idle clicker game in a business world full of cats~
+An idle clicker game in a business world full of cats
 
 
 
