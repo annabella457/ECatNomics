@@ -1,6 +1,5 @@
 html {
-    
-    cursor: url('sprites/normalCursor.png'), url('sprites/normalCursor.cur'), auto;
+    cursor: url('sprites/normalCursor.cur'), auto;
 }
 
 body {
@@ -8,6 +7,7 @@ body {
     padding: 20px;
     border-radius: 10px;
     text-align: center;
+    justify-content: center;
 }
 
 #scratchButton{
@@ -16,7 +16,7 @@ body {
     border: none;
     padding: 10px 20px;
     font-size: 16px;
-    cursor: url('sprites/clawCursor.png'), url('sprites/clawCursor.cur'), auto;
+    cursor: url('sprites/clawCursor.cur'), auto;
     border-radius: 5px;
 }
 
@@ -33,12 +33,13 @@ body {
 }
 
 #orangeCatUpgrade {
+    margin: auto;
     background-color: rgb(211, 215, 145);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 150px;
-    cursor: url('sprites/clawCursor.png'), url('sprites/clawCursor.cur'), auto;
+    cursor: url('sprites/clawCursor.cur'), auto;
 }
 
 #orangeAmount {
@@ -54,5 +55,4 @@ body {
     color: #c9570abe;
     line-height: 1.6;
     text-align: center;
-
 }
