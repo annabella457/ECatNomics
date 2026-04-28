@@ -10,6 +10,11 @@ body {
     justify-content: center;
 }
 
+#orangeCatHire {
+    margin: auto;
+    height: 75px;
+}
+
 #scratchText{
     font-size: 18px;
     font-family: Luminari, fantasy;
@@ -45,7 +50,7 @@ body {
     line-height: 1.6;
 }
 
-#orangeCatUpgrade {
+#catUpgrade {
     /* position: relative;
     z-index: 0; */
     margin: auto;
@@ -58,19 +63,19 @@ body {
     box-shadow: 10px 5px 20px rgb(125, 90, 90);
 }
 
-#orangeCatUpgrade:hover{
+#catUpgrade:hover{
     opacity: 0.8;
 }
 
-#orangeCatUpgrade:active{
+#catUpgrade:active{
     opacity: 0.6;
     transform: scale(0.95);
 }
 
 #orangeAmount {
-    font-size: 18px;
+    font-size: 24px;
     font-family: Luminari, fantasy;
-    color: #c9570abe;
+    color: #000000;
     line-height: 1.6;
 }
 
@@ -80,4 +85,35 @@ body {
     color: #c9570abe;
     line-height: 1.6;
     text-align: center;
+}
+
+#calicoAmount {
+    font-size: 24px;
+    font-family: Luminari, fantasy;
+    color: #000000;
+    line-height: 1.6;
+}
+
+#calicoText {
+    font-size: 18px;
+    font-family: Luminari, fantasy;
+    color: #c9570abe;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.sidebar {
+    position: fixed;
+    align-items: left;
+    right: 5px;
+}
+
+.sidebar-items {
+    list-style: none;
+    flex-direction: column;
+    /* add some more style later? */
+}
+
+.sidebar-items li {
+    text-align: right;
 }

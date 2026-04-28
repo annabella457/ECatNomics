@@ -6,16 +6,40 @@
     <link rel="stylesheet" href="style.css">
     <title>ECatNomics</title>
 </head>
+
+<aside class="sidebar">
+    <ul class="sidebar-items">
+        <li>
+            <img src="sprites/orangeSprite.png" id="orangeCatHire" alt="" draggable="false">
+            <span id="orangeAmount"> : 0</span>
+        </li>
+        <li>
+            <img src="sprites/calicoSprite.png" id="calicoCatHire" alt="calico" draggable="false">
+            <span id="calicoAmount"> : 0</span>
+        </li>
+    </ul>
+</aside>
+
 <body>
-    
+    <!-- <img src="sprites/orangeSprite.png" id="orangeCatHire" alt="" draggable="false">
+    <span id="orangeAmount"> : 0</span>
+    <img src="sprites/calicoSprite.png" id="calicoCatHire" alt="calico" draggable="false">
+    <span id="calicoAmount"> : 0</span>
+    <p></p> -->
     <img src="sprites/catBowl.png" onclick="clickScratch()" alt="" id="catBowl" draggable="false">
     <p id="scratchText">Scratch!</p>
     <p id="kibbleAmount">You have 0 kitty kibble.</p>
-    <button id="orangeCatUpgrade" onclick="purchaseOrangeCat()">
+    <button id="catUpgrade" onclick="purchaseOrangeCat()">
         <img src="sprites/orangeSprite.png" id="orangeCat" alt="" draggable="false">
         <span id="orangeText">Hire Orange Cat (Cost: 100 kibble)</span>
     </button>
-    <p id="orangeAmount"> You've hired 0 orange cats.</p>
+    <button id="catUpgrade" onclick="purchaseCalicoCat()">
+        <img src="sprites/calicoSprite.png" id="calicoCat" alt="calico" draggable="false">
+        <span id="calicoText">Hire Calico Cat (Cost: 500 kibble)</span>
+    </button>
+    
     <script src="main.js"></script>
+    
 </body>
+
 </html>
