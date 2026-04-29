@@ -15,6 +15,11 @@ body {
     height: 75px;
 }
 
+#calicoCatHire{
+    margin: auto;
+    height: 75px;
+}
+
 #scratchText{
     font-size: 18px;
     font-family: Luminari, fantasy;
@@ -43,6 +48,11 @@ body {
     height: auto;
 }
 
+#calicoCat {
+    width: 105px;
+    height: auto;
+}
+
 #kibbleAmount {
     font-size: 18px;
     font-family: Luminari, fantasy;
@@ -59,6 +69,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 150px;
+    width: 400px;
     cursor: url('sprites/clawCursor.cur'), auto;
     box-shadow: 10px 5px 20px rgb(125, 90, 90);
 }

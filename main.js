@@ -4,10 +4,7 @@ let orangeText = document.getElementById("orangeText")
 let orangeAmount = document.getElementById("orangeAmount")
 
 let baseCosts = {100: "orangeCat", 500: "calicoCat", 1000: "tabbyCat", 5000: "siameseCat", 100000: "lionCat" }
-
 let scratchPower = 1
-
-
 
 let kibble = 0
 let prestigeLevel = 0
